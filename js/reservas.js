@@ -45,7 +45,7 @@ function agregarReservation() {
             startDate: $("#startDate").val(),
             devolutionDate: $("#devolutionDate").val(),
             status: $("#status").val(),
-            Machine:{id: +$("#machine").val()},
+            machine:{id: +$("#machine").val()},
             client:{idClient: +$("#client").val()},
             
         }
